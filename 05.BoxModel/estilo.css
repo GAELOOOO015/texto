@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,41,1) 35%, rgba(0,212,255,1) 100%);
+color: black;
+
+}
+div{
+    width: 200px;
+    height: 200px;
+    background:black;
+    padding-top:50px ;
+    padding-left:50px ;
+    padding-bottom:50px ;
+    padding-right: 50px;
+    padding: 20px;
+    margin: 10px;
+    display:inline-block;
+    border: 2px solid white;
+    text-align: center;
+
+}
+#cajita1{
+    margin: 10PX 100px 20px 20px;
+    background-color: white;
+    border: 10px dashed blueviolet;
+}
+#cajita2{
+    padding-block:20px 20px ;
+    background-color: blueviolet;
+    border: 10px solid goldenrod;
+}
+#cajita3{
+    margin: 10PX 100px 20px 20px;
+    background-color: rgb(32, 159, 66);
+    border: 10px dotted red;margin: 10PX 100px 20px 20px;
+}
+#cajita4{
+    margin: 10PX 100px 20px 20px;
+    background:#FF0ABC ;
+    border: 10px double rgb(5, 3, 3);margin: 10PX 100px 20px 20px;
+}
+#cajita5{
+    padding-block:20px 20px ;
+    background: linear-gradient(red,yellow);
+    border: 10px inset white;
+}
+#cajita6{
+    box-shadow: 50px 0px 100px greenyellow;
+    background-color: aqua;
+    border-radius: 10% 50% 30% 50%;
+}
+#cajita7{
+    box-shadow: 0px 50px  red;
+    background-color: rebeccapurple;
+    border-radius: 50% 0% 0% 50%;
+}
+#cajita8{
+    box-shadow: 50px 0px 100px white;
+    background-color: violet;
+    border-radius: 50% 0% 50% 0%;
+}
+#cajita9{
+    box-shadow: 0px 50px  violet;
+    background-color: blueviolet;
+    border-radius: 10% 10% 100% 50%;
+}
+#cajita10{
+    box-shadow: 50px 0px 100px palevioletred;
+    background-color: yellowgreen;
+    border-radius: 50% 60% 30% 50%;
+}
