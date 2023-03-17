@@ -7,13 +7,13 @@ body{
     text-align: center;
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,41,1) 35%, rgba(0,212,255,1) 100%);
-color: black;
+color: palegreen
 
 }
 div{
     width: 200px;
     height: 200px;
-    background:black;
+    background: rgb(43, 226, 55);
     padding-top:50px ;
     padding-left:50px ;
     padding-bottom:50px ;
@@ -71,8 +71,14 @@ div{
     background-color: blueviolet;
     border-radius: 10% 10% 100% 50%;
 }
-#cajita10{
-    box-shadow: 50px 0px 100px palevioletred;
-    background-color: yellowgreen;
-    border-radius: 50% 60% 30% 50%;
+#cajita10:hover{
+    font-size:72px;
+    background: linear-gradient(to bottom right, red gold);
+    color: transparent;
+    transition: 3s all ease;
+    transform: scale(1.5);
+    transform: rotate(360deg);
+    border-radius: 100% 100% 100%;
+
+
 }
