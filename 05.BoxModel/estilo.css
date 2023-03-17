@@ -44,6 +44,7 @@ div{
     margin: 10PX 100px 20px 20px;
     background:#FF0ABC ;
     border: 10px double rgb(5, 3, 3);margin: 10PX 100px 20px 20px;
+    transform: rotate(50deg);
 }
 #cajita5{
     padding-block:20px 20px ;

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  div{
+    width: 100px;
+    height: 100px;
+    border: 2px dashed yellow;
+    background: red;
+    margin: 10px;
+    color: blue;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+  
+  }
+  .pos1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: blue;
+  }
+  .pos2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: green;
+  }
+  .pos3{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: greenyellow;
+  }
+  .pos4{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: violet;
+  }
+  .pos5{
+    position: relative;
+    top: 100px;
+    right: 100px;
+    background: black;
+  }
+  .pos6{
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    background: pink;
+  }
+  .j6{
+    position: fixed;
+    top: 52%;
+    right: 52%;
+    background: rgb(0, 0, 100,
+    0.5);
+    z-index:3;
+  }
